@@ -20,6 +20,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_04_230626) do
     t.float "lon"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_satellites_on_name", unique: true
   end
 
 end

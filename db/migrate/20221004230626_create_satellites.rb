@@ -6,5 +6,7 @@ class CreateSatellites < ActiveRecord::Migration[7.0]
       t.float       :lon
       t.timestamps
     end
+
+    add_index :satellites, :name, unique: true
   end
 end
