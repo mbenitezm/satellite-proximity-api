@@ -67,3 +67,5 @@ end
 
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'rest-client', '~> 2.1'
+gem 'haversine'
+gem 'active_model_serializers'

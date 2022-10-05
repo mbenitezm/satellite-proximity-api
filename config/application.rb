@@ -12,6 +12,8 @@ module SpacexApi
     config.load_defaults 7.0
     config.autoload_paths << "#{config.root}/lib"
     config.eager_load_paths << "#{config.root}/lib"
+    config.autoload_paths << "#{config.root}/serializers"
+    config.eager_load_paths << "#{config.root}/serializers"
 
     # Configuration for the application, engines, and railties goes here.
     #
